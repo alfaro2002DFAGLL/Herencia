@@ -14,6 +14,7 @@ public class Principal {
     public static void main(String[] args) {
 
         Coche c = new Coche(2000, "Chevrolet", 2023, "Negro", "123456");
+        Coche d = new Coche(3000, "Renault", 2024, "ROJO", "MSU188");
 
         System.out.println("Parametros Vehiculo: " + c.toString());
         c.pintar("Azul");
